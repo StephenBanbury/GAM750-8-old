@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/OscSimpl/Examples/02 ArgumentTypes/ArgumentTypeTest.unity
-    guid: 35cc5ea72e8644484942c1b91706366b
+    path: Assets/Scenes/NotNearEnough.unity
+    guid: 5c42b0c50447ee049b71ee95624f7f12
   m_configObjects: {}

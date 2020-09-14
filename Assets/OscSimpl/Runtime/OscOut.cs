@@ -22,7 +22,7 @@ using OscSimpl;
 public class OscOut : OscMonoBase
 {
 	[SerializeField] int _port = 8000;
-	[SerializeField] OscSendMode _mode = OscSendMode.UnicastToSelf;
+	[SerializeField] OscSendMode _mode = OscSendMode.Broadcast;
 	[SerializeField,FormerlySerializedAs( "_ipAddress" )] string _remoteIpAddress = IPAddress.Loopback.ToString(); // 127.0.0.1;
 	[SerializeField] OscRemoteStatus _remoteStatus = OscRemoteStatus.Unknown;
 	[SerializeField] bool _multicastLoopback = true; // UdpClient default is true
